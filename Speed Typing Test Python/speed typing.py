@@ -9,7 +9,7 @@ import random
 class Game:
    
     def __init__(self):
-        self.w=750
+        self.w=950
         self.h=500
         self.reset=True
         self.active = False
@@ -145,7 +145,7 @@ class Game:
 
         self.input_text=''
         self.word = ''
-        self.time_start = 0
+        # self.time_start = 0
         self.total_time = 0
         self.wpm = 0
 
